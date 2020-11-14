@@ -154,9 +154,9 @@ static int DisplayCmdOutput (struct genmon_t *p_poPlugin)
     else
         p_poPlugin->acValue = NULL;
 
-    /* If the command fails, display XXX */
+    /* If the command fails, display nothing */
     if (!p_poPlugin->acValue)
-        p_poPlugin->acValue = g_strdup ("XXX");
+        p_poPlugin->acValue = g_strdup ("");
 
     /* Test if the result is an Image */
     begin=strstr(p_poPlugin->acValue, "<img>");
