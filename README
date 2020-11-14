@@ -1,3 +1,6 @@
+This is a fork of the official xfce4-genmon-plugin (https://gitlab.xfce.org/panel-plugins/xfce4-genmon-plugin) that disables that pesky XXX display when the
+output of the command is blank.
+
 Generic Monitor XFce4 panel plugin (GenMon)
 ===========================================
 
